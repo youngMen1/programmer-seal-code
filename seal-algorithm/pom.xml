@@ -3,14 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.seal.datastructure</groupId>
-    <artifactId>seal-datastructure</artifactId>
+    <groupId>com.seal.algorithm</groupId>
+    <artifactId>seal-algorithm</artifactId>
     <version>${parent.version}</version>
     <packaging>jar</packaging>
 
-    <name>seal-datastructure</name>
-    <description>数据结构</description>
-
+    <name>seal-algorithm</name>
+    <description>常用算法</description>
 
     <parent>
         <artifactId>programmer-seal-code</artifactId>
