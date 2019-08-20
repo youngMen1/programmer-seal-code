@@ -20,10 +20,15 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <seal-cloud.version>0.0.1-SNAPSHOT</seal-cloud.version>
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.seal.common</groupId>
+            <artifactId>seal-common</artifactId>
+            <version>${seal-cloud.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

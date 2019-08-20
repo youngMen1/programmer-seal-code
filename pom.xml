@@ -22,6 +22,7 @@
         <module>seal-datastructure</module>
         <module>seal-algorithm</module>
         <module>seal-concurrent</module>
+        <module>seal-common</module>
     </modules>
 
     <properties>

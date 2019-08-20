@@ -1,1 +1,10 @@
-
+server:
+  port: 9008
+spring:
+  application:
+    name: seal-concurrent
+#swagger公共信息
+swagger:
+  title: 'Seal Swagger API'
+  description: 'Test'
+  version: '1.0'
