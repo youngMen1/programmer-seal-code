@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: seal-concurrent
-#swagger公共信息
+# swagger閰嶇疆
 swagger:
   title: 'Seal Swagger API'
   description: 'Test'
