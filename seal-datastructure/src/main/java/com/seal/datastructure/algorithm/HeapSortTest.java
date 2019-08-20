@@ -7,12 +7,14 @@ import java.util.Arrays;
  * @version 1.0
  * @date-time 2019/8/20 17:05
  * @description 堆排序
+ * 排序过程就是构建最大堆的过程，最大堆：每个结点的值都大于或等于其左右孩子结点的值，堆顶元素是最大值
  * 再简单总结下堆排序的基本思路：
  * 　　a.将无需序列构建成一个堆，根据升序降序需求选择大顶堆或小顶堆;
  * 　　b.将堆顶元素与末尾元素交换，将最大元素"沉"到数组末端;
  * 　　c.重新调整结构，使其满足堆定义，然后继续交换堆顶元素与当前末尾元素，反复执行调整+交换步骤，直到整个序列有序。
  **/
 public class HeapSortTest {
+
     public static void main(String[] args) {
         int[] arr = {9, 8, 7, 6, 5, 4, 3, 2, 1};
         sort(arr);
