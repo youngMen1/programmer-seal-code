@@ -1,4 +1,4 @@
-package com.seal.common.config;
+package com.seal.commonswagger.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

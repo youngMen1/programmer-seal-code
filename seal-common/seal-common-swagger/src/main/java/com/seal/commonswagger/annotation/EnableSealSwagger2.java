@@ -1,6 +1,6 @@
-package com.seal.common.annotation;
+package com.seal.commonswagger.annotation;
 
-import com.seal.common.config.SwaggerAutoConfiguration;
+import com.seal.commonswagger.config.SwaggerAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

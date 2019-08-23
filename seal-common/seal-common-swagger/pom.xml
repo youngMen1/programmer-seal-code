@@ -3,24 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.seal</groupId>
-    <artifactId>seal-common</artifactId>
+    <groupId>com.seal.commonswagger</groupId>
+    <artifactId>seal-common-swagger</artifactId>
     <version>${parent.version}</version>
     <packaging>jar</packaging>
 
-    <name>seal-common</name>
-    <description>公共包</description>
+    <name>seal-common-swagger</name>
+    <description>swagger</description>
 
     <parent>
-        <artifactId>programmer-seal-code</artifactId>
+        <artifactId>seal-common</artifactId>
         <groupId>com.seal</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-
-    <modules>
-        <module>seal-common-swagger</module>
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>

@@ -25,8 +25,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.seal.common</groupId>
-            <artifactId>seal-common</artifactId>
+            <groupId>com.seal.commonswagger</groupId>
+            <artifactId>seal-common-swagger</artifactId>
             <version>${seal-cloud.version}</version>
         </dependency>
     </dependencies>

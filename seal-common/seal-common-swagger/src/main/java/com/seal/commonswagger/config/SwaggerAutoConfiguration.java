@@ -1,4 +1,4 @@
-package com.seal.common.config;
+package com.seal.commonswagger.config;
 
 
 import com.google.common.base.Predicates;

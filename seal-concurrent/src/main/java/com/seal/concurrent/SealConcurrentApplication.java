@@ -1,6 +1,6 @@
 package com.seal.concurrent;
 
-import com.seal.common.annotation.EnableSealSwagger2;
+import com.seal.commonswagger.annotation.EnableSealSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
