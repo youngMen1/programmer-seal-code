@@ -20,14 +20,30 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <swagger.version>2.9.2</swagger.version>
         <seal-cloud.version>0.0.1-SNAPSHOT</seal-cloud.version>
+        <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.seal.commonswagger</groupId>
             <artifactId>seal-common-swagger</artifactId>
             <version>${seal-cloud.version}</version>
+        </dependency>
+
+        <!--swagger 依赖-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger-ui.version}</version>
         </dependency>
     </dependencies>
 
