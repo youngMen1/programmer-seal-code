@@ -27,6 +27,14 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <!--顺便介绍个查看对象的属性位置分布的一个小工具-->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.9</version>
+        </dependency>
+
         <dependency>
             <groupId>com.seal.commonswagger</groupId>
             <artifactId>seal-common-swagger</artifactId>
