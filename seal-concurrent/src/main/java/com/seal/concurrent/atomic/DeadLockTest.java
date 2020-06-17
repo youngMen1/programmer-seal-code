@@ -1,4 +1,4 @@
-package com.seal.concurrent.test;
+package com.seal.concurrent.atomic;
 
 /**
  * @author zhiqiang.feng

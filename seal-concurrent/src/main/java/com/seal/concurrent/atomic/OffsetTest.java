@@ -1,4 +1,4 @@
-package com.seal.concurrent.test;
+package com.seal.concurrent.atomic;
 
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.vm.VM;

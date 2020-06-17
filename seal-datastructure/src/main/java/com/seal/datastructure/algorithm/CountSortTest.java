@@ -24,8 +24,8 @@ public class CountSortTest {
 
     public static void main(String args[]) {
         int k = 10;
-//        int test[] = com.sunpro.java.RandomGenerator.randGenerator(10,k);
-//        countSort(test, k);
+//        int atomic[] = com.sunpro.java.RandomGenerator.randGenerator(10,k);
+//        countSort(atomic, k);
     }
 
     public static void countSort(int[] A, int k) {
